@@ -1,13 +1,13 @@
 <template>
- <div class="container">
-  <section class="bg-gray-800 flex flex-col items-center justify-center mx-auto h-full">
-   <h1 class="text-7xl text-black mb-5 font-black">Twitter</h1>
+ <div class="md:container">
+  <section class="bg-zinc-900 flex flex-col items-center justify-center mx-auto h-full">
+   <h1 class="text-7xl text-zinc-100 mb-5 font-black">Register</h1>
    <form
     @submit.prevent="register"
-    class="bg-gray-300 rounded-lg grid grid-cols-1 space-y-5 py-5 px-5 w-96"
+    class="bg-gray-300 rounded-lg grid grid-cols-1 sm:w-96 px-10 py-10 space-y-5 xs:w-full"
    >
     <div>
-     <label for="email" class="block text-lg mb-2 font-medium text-gray-500">Email</label>
+     <label for="email" class="block text-lg mb-2 font-medium text-zinc-900">Email</label>
      <input
       type="text"
       name="email"
@@ -19,7 +19,7 @@
      </p>
     </div>
     <div>
-     <label for="phone_number" class="block text-lg mb-2 font-medium text-gray-500"
+     <label for="phone_number" class="block text-lg mb-2 font-medium text-zinc-900"
       >Phone Number</label
      >
      <input
@@ -33,7 +33,7 @@
      </p>
     </div>
     <div>
-     <label for="username" class="block text-lg mb-2 font-medium text-gray-500">Username</label>
+     <label for="username" class="block text-lg mb-2 font-medium text-zinc-900">Username</label>
      <input
       type="text"
       name="username"
@@ -45,7 +45,7 @@
      </p>
     </div>
     <div>
-     <label for="password" class="block text-lg mb-2 font-medium text-gray-500">Password</label>
+     <label for="password" class="block text-lg mb-2 font-medium text-zinc-900">Password</label>
      <input
       type="password"
       name="password"
@@ -57,7 +57,7 @@
      </p>
     </div>
     <div class="mb-3">
-     <label for="password" class="block text-lg mb-2 font-medium text-gray-500"
+     <label for="password" class="block text-lg mb-2 font-medium text-zinc-900"
       >Confirm Password</label
      >
      <input

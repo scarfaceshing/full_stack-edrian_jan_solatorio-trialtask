@@ -30,10 +30,10 @@
      </td>
      <td class="border border-slate-600">
       <div class="lg:w-24 grid grid-cols-2">
-       <button type="button" @click="$emit('edit', item)">
+       <button type="button" @click="$emit('edit', item)" class="text-blue-900">
         <PenIcon />
        </button>
-       <button type="button" @click="$emit('remove', item)">
+       <button type="button" @click="$emit('remove', item)" class="text-red-900">
         <TrashIcon />
        </button>
       </div>

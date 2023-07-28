@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import SpinnerIcon from "../icons/Spinner.vue";
+import SpinnerIcon from '../icons/Spinner.vue';
 
 export default {
  components: {
@@ -24,12 +24,11 @@ export default {
   },
   title: {
    type: String,
-   default: "button",
+   default: 'button',
   },
   className: {
    type: String,
-   default:
-    "w-full bg-gray-500 py-2 rounded-lg text-white flex items-center justify-center",
+   default: 'w-full bg-zinc-900 py-2 rounded-lg text-white flex items-center justify-center',
   },
  },
 };

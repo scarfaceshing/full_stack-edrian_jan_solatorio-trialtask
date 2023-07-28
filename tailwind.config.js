@@ -10,8 +10,17 @@ module.exports = {
             container: {
                 center: true,
             },
+
             animation: {
                 spin: "spin 3s linear infinite",
+                fadeIn: "fadeIn 250ms ease-out",
+            },
+
+            keyframes: {
+                fadeIn: {
+                    "0%": { opacity: "0.0" },
+                    "100%": { opacity: "1.0" },
+                },
             },
         },
     },
